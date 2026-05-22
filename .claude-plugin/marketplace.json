@@ -1,0 +1,20 @@
+{
+  "name": "palace-skills",
+  "description": "PUA 我们不养闲 Agent — Forces AI to exhaust all solutions with corporate PUA pressure escalation. 14 flavors (Alibaba, ByteDance, Huawei, Tencent, Netflix, Musk, Jobs, Mama-mode...), 11 modular skills (/pua /pua:p7 /pua:p9 /pua:p10 /pua:pro /pua:loop /pua:yes /pua:mama /pua:shot /pua-en /pua-ja), L0-L4 pressure system, agent lifecycle accounting (SubagentStop + team-status/reap-orphans/teardown-all), self-evolution tracking.",
+  "owner": {
+    "name": "zx12671",
+    "url": "https://github.com/zx12671"
+  },
+  "plugins": [
+    {
+      "name": "palace",
+      "description": "Palace 三省六部多智能体决策系统。Claude 扮演唐朝三省六部9个智能体，用户作为皇上审批裁决，产出结构化决策报告。",
+      "version": "1.0.0",
+      "source": "./",
+      "author": {
+        "name": "zx12671",
+        "url": "https://github.com/zx12671"
+      }
+    }
+  ]
+}

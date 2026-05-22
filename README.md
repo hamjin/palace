@@ -48,7 +48,7 @@ No API key needed. Claude itself acts as all 9 agents.
 /palace 帮我决定要不要辞职去创业
 ```
 
-See [Claude Code Plugin](#claude-code-plugin) section below for installation.
+See [Claude Code Plugin](#claude-code-plugin--claude-code-插件) section below for installation.
 
 **2. As a Standalone CLI | 作为独立命令行工具**
 
@@ -84,8 +84,15 @@ Interactive mode pauses at each checkpoint for user input:
 **Option A: From GitHub | 从 GitHub 安装**
 
 ```
-/plugin marketplace add zx12671/palace
-/plugin install palace@palace
+/plugin marketplace add hamjin/palace
+/plugin install palace@palace-skills
+```
+
+or
+
+```bash
+claude plugin marketplace add hamjin/palace
+claude plugin install palace@palace-skills
 ```
 
 
